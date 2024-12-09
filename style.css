@@ -1,0 +1,75 @@
+body{
+    background-color: white;
+    padding: 10%;
+}
+
+.main-container{
+        display: flex;
+        flex-direction: column;
+        border-radius: 15px 15px 0px 0px;
+        box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 16px -4px rgba(0,0,0,0.7);
+}
+
+.top-div{
+        background-color: #21235e;
+        display: flex; 
+        flex-direction: row;
+        height: 200px;
+        border-radius: 15px 15px 0px 0px;
+}
+.top-div h1{
+         color: white; 
+         width: 100%;
+         text-align: center;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+}
+.top-div img{
+    height: 30px;
+    width: 30px;
+}
+.top-div button{
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border: none;
+   
+}
+
+.bottom-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: column;
+    gap: 20px;
+    padding: 10%;
+    padding-top: 2%;
+    align-items: center;
+
+}
+
+.bottom-div div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+}
+
+.bottom-div button{
+      background-color: #21235e;
+      color: white;
+      padding: 15px 50px;
+      border: none;
+      border-radius: 30px;
+}
+.bottom-div input, .bottom-div select{
+     border: none;
+     border-bottom: 1px solid;
+}
+.bottom-div label{
+    display: flex;
+    flex-direction: column;
+}
