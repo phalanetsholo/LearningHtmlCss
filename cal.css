@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+    padding: 10%;
+    
+}
+.Top-div{
+    
+    display: flex; 
+    flex-direction: column;
+    justify-items: baseline;
+    border-radius: 5px;
+    border: 2px solid;
+    box-shadow: 20px 20px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 16px -4px rgba(0,0,0,0.7);
+margin: auto;
+width: 40%;
+padding: 5%;
+}
+ 
+.initiate-div{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    text-decoration: underline;
+    font-weight: bolder;
+    letter-spacing: 2px;
+}
+
+.dis-div{
+    width: 70%;              
+    padding: 10px;                      
+    border: 2px solid #ccc;   
+    border-radius: 4px;       
+    outline: none;            
+    background-color:white;
+    
+}
+.first-cal{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    line-height: 40px;
+    gap: 5px;
+}
+
+.first-cal button{
+    padding: 10px;
+    font-size: 1.5em;
+    border: none;
+    background-color: #f1f1f1;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.first-cal button:hover{
+   
+    background-color: red;
+    transition: 0.5s;
+}   
+
+#ON{
+    background-color: orangered;
+}
+#plus {
+    background-color: orangered;
+}
+#plus {
+    background-color: orangered;
+}
+#minus {
+    background-color: orangered;
+}
+#plus {
+    background-color: orangered;
+}
+#star {
+    background-color: orangered;
+}
+#equal {
+    background-color: orangered;
+}
+

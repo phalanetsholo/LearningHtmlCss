@@ -1,4 +1,4 @@
-body{
+body{ 
     background-color: white;
     padding: 10%;
 }
@@ -42,7 +42,7 @@ body{
 .second-div input {  
        border: 1px solid; 
        border-color: black; 
-       /* width: 38%;  */
+       width: 38%;  
        line-height: 40px;
        display: flex;
        flex-direction: row;
@@ -90,5 +90,4 @@ body{
 .fith-div a{
     text-decoration: none;
     color: blue;
-}
-
+} 
