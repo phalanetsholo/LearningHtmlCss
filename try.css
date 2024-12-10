@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    padding: 10%;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 7px 6px 16px -4px rgba(0,0,0,0.7);
+}
+.first.div{
+    display: flex;
+    flex-direction: column;
+}
+
+.first.div h1,h4{
+    display: flex;
+    justify-content: flex-start;
+}
+.second-div{
+    display: flex;
+    flex-direction: column;
+}
+
+.second-div label{
+  color: gray;
+}
+
+.second-div input {  
+       border: 1px solid; 
+       border-color: black; 
+       width: 35%; 
+       line-height: 40px;
+       display: flex;
+       flex-direction: column;
+
+}
+.third.div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.forth-div button{
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    border: none;
+    border: 10px;
+    display: flex;
+    flex-direction: column
+}
