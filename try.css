@@ -6,51 +6,89 @@ body{
 .main{
     display: flex;
     flex-direction: column;
+    justify-items: center;
+    padding: 5%;
+    margin: auto;
+    width: 40%;
     border-radius: 15px 15px 0px 0px;
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -webkit-box-shadow: 6px 7px 16px -4px rgba(0,0,0,0.75);
 -moz-box-shadow: 7px 6px 16px -4px rgba(0,0,0,0.7);
 }
-.first.div{
+.first-div{
     display: flex;
     flex-direction: column;
+    
 }
 
-.first.div h1,h4{
+.first-div h1,h4{
     display: flex;
     justify-content: flex-start;
+
+    
 }
 .second-div{
+    
     display: flex;
     flex-direction: column;
+   
 }
 
 .second-div label{
   color: gray;
+ 
 }
 
 .second-div input {  
        border: 1px solid; 
        border-color: black; 
-       width: 35%; 
+       /* width: 38%;  */
        line-height: 40px;
        display: flex;
-       flex-direction: column;
-
+       flex-direction: row;
+       align-items: center;
+       
 }
-.third.div{
+.third-div{
     display: flex;
     flex-direction: column;
+    padding: 10px;
+    gap: 7px;
 }
 
+.third-div div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.third-div a{
+ text-decoration: none;
+ color: blue;
+}
 
 
 .forth-div button{
     background-color: black;
     color: white;
     padding: 15px 50px;
-    border: none;
+    width: 45%;
     border: 10px;
     display: flex;
-    flex-direction: column
+    flex-direction: column;
+    align-items: center;
 }
+
+.fith-div{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+.fith-div a{
+    text-decoration: none;
+    color: blue;
+}
+
